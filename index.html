@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 포트폴리오</title>
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- pc.css -->
+    <link rel="stylesheet" href="css/pc.css" media="screen and (min-width:768px)">
+    <!-- mobile.css -->
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:767px)">
+    <!-- slider -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header id="main-header">
+        <h1>
+            <a href="#">
+                <img class="pc" src="images/long3.png" alt="jyp로고">
+            </a>
+        </h1>
+        <nav id="gnb">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">COMPANY</a></li>
+                <li><a href="#">ARTIST</a></li>
+                <li><a href="#">AUDITION</a></li>
+                <li><a href="#"><i class='bx bx-search'></i></a></li>
+            </ul>
+            <button id="toggle-btn" class="btn"><i class='bx bx-menu' ></i></button>
+        </nav>
+    </header>
+
+    <!-- 메인비주얼 -->
+    <section id="main-visual">
+        <div class="container">
+            <img src="images/bg.jpg" alt="배경">
+            <img src="images/bg2.jpg" alt="배경">
+            <img src="images/bg3.jpg" alt="배경">
+            <img src="images/bg4.jpg" alt="배경">
+            <img src="images/bg5.jpg" alt="배경">
+            <h1>
+                JYP. <br>
+                ARTIST</h1>
+            <a href="#">Go </a>
+            
+        </div>
+       
+    </section>
+
+    <!-- 메인컨텐츠 -->
+    <section id="main">
+        <div class="container">
+            <h1>MUSIC VIDEO</h1>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <iframe src="https://www.youtube.com/embed/MjCZfZfucEc?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                        <iframe src="https://www.youtube.com/embed/f5_wn8mexmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                        <iframe src="https://www.youtube.com/embed/-6aVQrzja9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                        <iframe src="https://www.youtube.com/embed/EaswWiwMVs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                        <iframe src="https://www.youtube.com/embed/HwcCBnfhsR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                   
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+       
+        </div>
+       
+    </section>
+
+<!-- 어바웃 -->
+    <section id="about">
+            <h2>About JYP</h2>
+            <a href="#" class="btn-detail btn-style-white">바로가기</a>
+    </section>
+
+<!-- 위로가기 고정버튼 -->
+    <a href="#" class="btn-top"><i class='bx bx-up-arrow-alt'></i></a>
+
+<footer>
+    <div class="container">
+        <p>2011 copyright &copy; <span>JYP</span> CORP. ALL RIGHT RESERVED</p>
+        <a href="#">개인정보처리방침</a> 
+        <a href="#">내부정보관리규정</a> 
+    </div>
+</footer>
+</body>
+</html>

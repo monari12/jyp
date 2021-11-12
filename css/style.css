@@ -1,0 +1,63 @@
+/* style.css */
+:root{
+    --main-color:#2faeff;;
+    --text-color:rgb(46, 46, 46);
+    --pc-header-height:70px;
+    --mobile-header-height:60px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:var(--text-color);
+}
+ul{
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size:18px;
+    color:var(--text-color);
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #fff;
+}
+p{
+    line-height:32px;
+}
+.container{
+    width: 1200px;
+    margin:0 auto;
+    
+}
+.btn{
+    border-style:none;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+}
+.bx-menu{
+    font-size:32px;
+}
+
+/* 위로가기 고정버튼 */
+.btn-top{
+    position:fixed;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    color:black;
+    bottom: 20px;
+    right:10px;
+    border-radius: 50%;
+    text-align: center;
+}
+.btn-top .bx-up-arrow-alt{
+    font-size:43px;
+    line-height: 48px;
+}
